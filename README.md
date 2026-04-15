@@ -33,3 +33,19 @@ Entrada --> Processamento --> Saída
 | ++ | Somar 1 ao resultado | x ++ | 11 |
 | -- | Subtrair 1 do resultado | x -- | 9 |
 | % | Resto da  divisão | 9 % 3 | 0 |
+
+## operadores lógicos 
+| operador | simbologia |
+|----------|------------|
+| AND | && |
+| OR | \|\| |
+| NOT | ! |
+ 
+## comparadores
+| comparador | significado | 
+|------------|-------------|
+| > | Maior que |
+| >= | Maior ou igual a |
+| < | Menor que |
+|<= | Menor ou igual a |
+| === | Identifico a |
