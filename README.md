@@ -55,11 +55,27 @@ Entrada --> Processamento --> Saída
 
 ```javascript
 if (condição) {
-//condição verdadeira
+\\condição verdadeira
 }
 
 if (condição){
-//condição verdadeira
+\\condição verdadeira
 } else {
-//condição falsa
+\\condição falsa
 }
+if(condição 1) {
+\\condição 1 verdaderia
+} else if (condição 2) {
+\\condição 2 verdadeira
+} else {
+\\ se nenhuma das condições anteriores for verdadeira
+}
+
+switch (valor) {
+  case 1:
+    \\código caso o valor seja 1
+   break
+defalt:
+\\ código caso o valor seja diferente se 1 ou 2
+}
+...
