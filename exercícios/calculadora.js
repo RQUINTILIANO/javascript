@@ -23,7 +23,7 @@ function multiplicar(num1, num2) {
 function dividir(num1, num2) {
     //validação
     if (num1 === 0) {
-        console.log("Erro! Impossível dividir por  0")
+        console.log("Erro! Impossível dividir por 0")
     } else {
         return num1 / num2
     }
@@ -31,6 +31,10 @@ function dividir(num1, num2) {
 function raizQuadrada(num1) {
     return Math.sqrt(num1);
 }
+function porcentagem (num1){
+ return (num1 / 100) *num2
+}
+
 
 
 //==============================================
@@ -69,6 +73,11 @@ function iniciarCalculadora() {
                 num1 = Number(prompt("Digite o Valor: "))
                 resultado = raizQuadrada(num1)
                 break
+                case 6:
+                num1 = Number(prompt("Digite o valor da compra:   "))
+                num2 = Number(prompt("Digite o valor de desconto:   "))
+                resultado = porcentagem(num1, num2)
+                break
             default:
                 console.log("Opção invalida")
                 prompt("Precione [Enter] para continuar")
@@ -85,11 +94,12 @@ function iniciarCalculadora() {
 function mostrarMenu() {
     console.clear()
     console.log("===Calculadora JS===")
-    console.log("1. Somar")
+    console.log("1.Somar")
     console.log("2.Subtrair")
     console.log("3.Multiplicar")
     console.log("4.Dividir")
     console.log("5.Raiz Quadrada")
+    console.log("6. Porcentagem")
     console.log("0. Sair")
 }
 //Até aqui ao rodar o código não acontecerá nada, pois o código precisa ser chamado, como faremos a seguir.
